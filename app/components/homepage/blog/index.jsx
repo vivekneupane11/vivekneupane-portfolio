@@ -5,9 +5,11 @@ import { FaArrowRight } from 'react-icons/fa';
 import YouTube from 'react-youtube';
 
 function Blog() {
+  const hasWindow = typeof window !== 'undefined';
+  const width = hasWindow ? window.innerWidth : null;
   const opts = {
-    height: '330',
-    width: '500',
+    height: width >700?'380' : '330',
+    width: width>700?'590':'300',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
@@ -16,8 +18,8 @@ function Blog() {
     mute:1
   };
   const opts1 = {
-    height: '330',
-    width: '500',
+    height: width >700?'380' : '330',
+    width: width>700?'500':'300',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
@@ -50,7 +52,7 @@ function Blog() {
         </div>
       </div>
 
-    <section className='flex gap-5 flex-col lg:flex-row items-center justify-evenly  mt-10'>
+    <section className='flex gap-5 flex-col lg:flex-row flex-wrap items-center justify-evenly  mt-10'>
     <YouTube videoId="kZVt_OmD-tI" opts={opts1} onReady={onReady} />
     <YouTube videoId="T2ebn7TN9mw" opts={opts} onReady={onReady} />
     </section>
