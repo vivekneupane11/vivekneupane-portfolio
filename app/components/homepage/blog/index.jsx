@@ -11,7 +11,9 @@ function Blog() {
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
+      mute:1
     },
+    mute:1
   };
   const opts1 = {
     height: '330',
@@ -19,8 +21,9 @@ function Blog() {
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
+      mute:1
     },
-    mute:true
+    mute:1
   };
   const onReady = (event) =>{
     // access to player in all event handlers via event.target
