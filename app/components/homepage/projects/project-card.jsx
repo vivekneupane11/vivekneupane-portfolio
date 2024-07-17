@@ -61,6 +61,14 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+        {
+          project.demo.length>0 && <div className="ml-4 lg:ml-8 mr-2 mt-2">
+                 <span className="text-white">{`Preview: {`}</span>
+                 {project.demo.map(demo=>  <div className="ml-4 lg:ml-8 mr-2 shadow-lg m-4 shadow-gray-800 p-1.5 rounded-lg">
+            <span className="text-cyan-400"><a href={demo} className='text-sm text-green-500 hover:text-blue-600' target={'_blank'}>{ demo}</a></span>
+          </div>)}
+          </div> 
+        }
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
