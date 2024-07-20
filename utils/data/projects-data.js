@@ -7,7 +7,7 @@ export const projectsData = [
     {
         id: 3,
         name: 'Bamboo-Crypto Investing',
-        description: 'An app that provide a simple and effortless way to start investing in crypto - one transaction at a time. I worked as Senior Software engineer. My role was mostly on front-end and  mobile app development using ReactJS and React Native.',
+        description: 'I worked as a Senior Software Engineer on an app that provides a simple and effortless way to start investing in crypto, one transaction at a time. My role focused primarily on front-end and mobile app development using ReactJS and React Native.',
         tools: ['React', 'React Native', 'AWS Amplify', 'Customer IO','Intercom', 'EC2', 'React Query', 'Snow Flake', 'Jira', 'Cronjob','Firebase'],
         code: '',
         role: 'Senior Software Engineer',
@@ -27,7 +27,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'Jhigubazar',
-        description: 'A free online marketplace that lets you buy, sell and donate a variety of new or used things. In Jhigubazar, I was mostly responsible for backend logic. For example deployment using AWS EC2, implementing cronjobs, indexing mongodb queries, implementing geospatical query and soon. ',
+        description: 'Jhigubazar is a free online marketplace that allows users to buy, sell, and donate a variety of new or used items. In this role, I was primarily responsible for backend logic, including deployment using AWS EC2, implementing cron jobs, indexing MongoDB queries, and implementing geospatial queries, among other tasks. ',
         tools: ['NextJS', 'Mongodb', "Google Maps", "NestJS", "TypeScript", "GeoSpatical Query", "AWS S3", "CronJobs", "SSR"],
         role: 'Full Stack Developer',
         code: '',
@@ -38,7 +38,7 @@ export const projectsData = [
     {
         id: 4,
         name: 'REACTJS-EDITOR',
-        description: "A cool npm package created for ReactJS. React package to highlight text,make text bold,add comment to text. I think this library can demonstrate my frontend skill.",
+        description: "I created a cool npm package for ReactJS that allows users to highlight text, make text bold, and add comments to text. This library showcases my frontend skills effectively.",
         tools: ['ReactJS','ts','javascript','html','css','nvm','npm'],
         code: '',
         demo: ['https://reactjs-editor-demo.vercel.app/','https://www.npmjs.com/package/reactjs-editor'],
